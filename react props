@@ -1,0 +1,14 @@
+import React from 'react'; import './FirstComponent.css';
+
+function FirstComponent({name,author,city,price}) { return (
+
+{name}
+{author}
+
+{city}
+
+{price}
+ADD TO CART MAKE OFFER
+
+) }
+export default FirstComponent
